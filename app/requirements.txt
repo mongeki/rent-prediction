@@ -1,0 +1,12 @@
+scikit-learn
+numpy
+nltk
+pymorphy3
+joblib
+pandas
+fastapi
+uvicorn
+xgboost
+python-multipart
+jinja2
+geopy
