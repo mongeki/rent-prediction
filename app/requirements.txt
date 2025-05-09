@@ -6,7 +6,6 @@ joblib
 pandas
 fastapi
 uvicorn
-xgboost
 python-multipart
 jinja2
 geopy
