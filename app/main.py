@@ -176,8 +176,6 @@ async def predict(
     missing = ""
     if missing_list:
         missing = "В объявлении отсутствуют данные о: " + ', '.join(missing_list) + ". Рекомендуется их добавить!"
-    else:
-        missing = "Описание полное!"
 
     numerical_features = pd.DataFrame([[
         floor, floor_count, rooms_count, total_meters, latitude,
